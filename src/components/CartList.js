@@ -4,7 +4,11 @@ import "../App.css";
 function CartList({ cart }) {
   const [CART, setCART] = useState([]);
 
+ 
+ 
   useEffect(() => {
+
+    // should we check anything here ...
     setCART(cart);
   }, [cart]);
 
